@@ -27,6 +27,7 @@ describe('Input', () => {
       await wrapper.setData({
         vin: {
           infoIsOpen: false,
+          year: '2019',
         },
       })
     })
